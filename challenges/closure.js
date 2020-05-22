@@ -16,9 +16,16 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: 
+// Explanation: Internal is defined before the nested function and it is also in a higher scope. Javascript can look outside its current scope to find objects, although it cannot look inwards
 
 
 /* Task 2: Counter */
 
 /* Create a function called `sumation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+// function sumation(times){
+//   for(let i = 1; i <= times; i++)
+//   console.log(i + i);
+// }
+
+// sumation(4);
